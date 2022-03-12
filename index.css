@@ -1,0 +1,668 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+footer{
+  background-color: rgb(231, 229, 229);
+  
+  /* background-image: url("fondo.jpg");
+background-size: 100% 100%;
+*/}
+
+
+.vac{
+    font-size: 25px;
+    color:rgb(1, 5, 255);
+    font-weight: 700;
+    
+}
+
+  
+   
+    
+    
+
+
+.ablanco{
+    color:white;
+    font-weight: 700;
+    background-color:rgb(1, 5, 255); 
+    padding: 5px 6px 6px 6px;
+    border: 1px solid rgb(247, 241, 242);
+    box-shadow:1px 5px 1px 1px rgb(219, 219, 219);
+
+    
+}
+
+
+
+.garantia{
+    color: rgb(27, 27, 128);
+    font-weight: 700; 
+}
+
+.textocita{
+    color: rgb(27, 27, 128);
+    font-weight: 700;
+    font-size: 20px;  
+}
+
+
+h1{
+    color:rgb(27, 27, 128);
+}
+
+.hea{
+    display: flex;
+    width: 100%;
+}
+.nombre{
+    
+    position:relative;
+    top:19px;
+    left:5%;
+    width: 60%;
+    
+    
+    
+}
+
+.nav{
+    
+    width: 40%;
+    opacity: 0.5;
+    padding: 35px 0px 0px 0px;
+    background-color: rgb(245, 238, 238);
+    
+    
+}
+
+ul{
+    display: flex;
+    justify-content:space-around; 
+}
+
+li{
+    list-style-type: none;
+   
+}
+
+a{
+  text-decoration: none;
+  color:black;  
+}
+
+
+.contenedorsalva{
+    
+    display: flex;
+    height: 500px;
+    width: 100%;
+    text-align: center;
+}
+
+
+.hijosalva{
+    
+    height: 500px;
+    width: 60%;
+    display: block;
+   
+}
+
+.hijoimg{
+
+    height: 500px;
+    width: 40%;
+    display: inline-block;
+
+    background-image: url("vacunate.jpg");
+    background-size: 100% 100%;
+}
+
+
+.garantia{
+    position: relative;
+    display: inline-block;
+    top: 10%;
+    margin-left: 10%;
+}
+
+.textocita{
+    position: relative;
+    top:35%;
+    right: 15%;
+}
+
+.cita{
+    
+    width: 750px;
+    display: inline-block;
+    position: relative;
+    top: 40%;
+    left: 25%;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(247, 241, 242);
+    box-shadow:1px 5px 5px 1px rgb(228, 227, 227);
+    padding:20px 15px 20px 15px;
+   
+   opacity: 0.9;
+}
+
+
+.tablacita{
+    display: inline-block;
+    width:500px;
+    
+}
+
+
+.ulflexcita{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ulflexcita1{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600; 
+}
+
+li{
+    list-style-type: none;
+}
+
+.botoncita{
+    display: inline-block;
+    width: 100px;
+   
+    position: relative;
+    bottom:9px;
+    left:15px;
+}
+.boto{
+    background-color:rgb(1, 5, 255); 
+color: white;
+    padding: 8px 8px 8px 8px;
+border: 1px solid rgb(255, 255, 255);
+font-weight: 600;
+box-shadow:0px 3px 0px 0px rgb(197, 193, 193);
+
+}
+
+
+
+
+.contenedorlogos{
+    display: inline-flex;
+    justify-content: space-between;
+  
+}
+
+.logo1, .logo2, .logo3, .logo4{
+    display: inline-flex;
+ width: 20%;   
+height: 100px;
+opacity: 0.5;
+}
+
+
+
+
+
+
+.contenedordeberias{
+    display: block;
+text-align: center;
+}
+
+h2{
+    color: rgb(27, 27, 128);
+}
+
+.deberias{
+
+    display: block;
+   height: 200px;
+   position: relative;
+   right: 35%;
+   width: 100%;
+   margin-top: 5%;
+}
+
+
+.cajasdeberias{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    
+}
+
+
+
+.deberias1, .deberias2, .deberias3, .deberias4{
+    display: inline-block;
+    
+    width: 150px;
+    height: 220px;
+    
+    border: 1px solid rgb(231, 228, 228);
+   
+    box-shadow:5px 5px 2px 1px rgb(228, 227, 227);
+    flex-wrap: wrap;
+}
+
+h4{
+    margin-top: 5%;
+    padding-bottom: 5%;
+}
+
+
+
+.contenedorpreparate{
+    display: flex;
+    width: 100%;
+height: 400px;
+margin-top: 5%;
+}
+
+.preparateimg{
+    
+    position: relative;
+    height: 400px;
+    width: 50%;    
+    background-image: url("prepa.jpg");
+    background-size: 100% 100%;
+    
+}
+
+.preparatext{
+    display: block;
+    position: relative;
+    width: 50%;
+    height: 400px; 
+    text-align: center;
+}
+
+
+
+.preparalista{
+display: inline-flex;
+flex-direction: column;
+position: relative;
+
+ 
+}
+
+
+.prel{
+    box-shadow:5px 5px 2px 1px rgb(228, 227, 227);
+    padding: 10px 40px 10px 40px;
+    border: 1px solid rgb(231, 228, 228);
+    margin-top:5%;
+     color: rgb(27, 27, 128);
+    font-weight: 700;
+display: flex;
+}
+
+
+
+.contenedorllama{
+    display: flex;
+    width: 100%;
+height: 400px;
+margin-top: 5%;
+}
+
+
+
+.llamatext{
+    display: inline-block;
+    position: relative;
+    width: 50%;
+    height: 400px; 
+    text-align: center;
+}
+
+.llamaflex{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 40%;
+    
+    position: relative;
+    top:10%;
+    left:25%;
+}
+
+.call, .chat, .video, .message{
+display: inline-block;
+width: 50%;
+height: 100px;
+border: 1px solid rgb(231, 228, 228);
+box-shadow:5px 5px 2px 1px rgb(228, 227, 227);
+
+}
+.lla{
+    font-weight: 700;
+}
+
+
+.bot{
+background-color: rgb(252, 247, 255);
+border: 1px solid rgb(255, 255, 255);
+color:rgb(27, 27, 128);
+box-shadow:0px 1px 0px 0px rgb(197, 193, 193);
+}
+
+.bot1{
+    background-color:rgb(27, 27, 128); 
+color: white;
+    
+border: 1px solid rgb(255, 255, 255);
+font-weight: 600;
+}
+
+
+
+.foo{
+    display: flex;
+    width: 100%;
+    height: 200px;
+}
+
+.foouno{
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+}
+
+.foodos{
+    display: inline-flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.about, .compania, .soporte{
+    width: 15%;
+    height: 150px;   
+}
+
+.ab{
+    padding: 4px 0px 4px 0px;
+}
+.ultimo{
+    display: inline-flex;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.derechos, .terminos{
+    width: 50%;
+}
+
+
+
+
+.llamaimg{
+    display: inline-block;
+    position: relative;
+    height: 400px;
+    width: 50%;    
+    background-image: url("llama.jpg");
+    background-size: 100% 100%;
+    
+}
+
+
+.ter{
+    display: inline-block;
+    padding: 0px 10px 0px 10px;
+}
+
+
+/*iconos*/
+
+#ico1, #ico2{
+position: relative;
+right: 14px;
+color:gold
+}
+
+#ico3, #ico4, #ico5, #ico6{
+position: relative;
+right: 5px;
+   color: rgb(27, 27, 128);
+}
+
+#ico7, #ico8, #ico9, #ico10{
+    color: rgb(27, 27, 128);
+    border: 1px solid rgb(255, 255, 255);
+    position: relative;
+    right: 35%;
+    padding: 5px 6px 5px 6px;
+    background-color: rgb(251, 244, 255);
+}
+
+#ico11, #ico12, #ico13, #ico14, #ico15{
+    position: relative;
+    right:5%;
+    padding: 5px 6px 5px 6px;
+    background-color: rgb(251, 244, 255); 
+    display: flex;
+}
+
+#fleca{
+    position: relative;
+    left:5%;
+    padding: 5px 6px 5px 6px;
+    background-color: rgb(251, 244, 255); 
+    display: flex;
+}
+
+#eme{
+    color: rgb(27, 27, 128);
+    border: 1px solid rgb(255, 255, 255);
+    position: relative;
+    padding: 5px 6px 5px 6px;
+    background-color: rgb(251, 244, 255);
+}
+
+
+/*responsive*/
+
+@media only screen and (max-width: 600px) {
+    
+.hea{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+    .nombre{
+        display: inline-block;
+        position:relative;
+        top:0px;
+        left:0%;
+        
+    }
+
+.nav{
+    display: inline-block;
+    left: 0%;
+    width: 100%;
+
+}
+
+.garantia{
+    position: relative;
+    display: inline-block;
+    top: 3%;
+    margin-top: 5%;
+}
+
+.textocita{
+    position: relative;
+    top:10%;
+    
+}
+
+.cita{
+    
+    width: 80%;
+    display: inline-block;
+    position: relative;
+    top: 10%;
+    left: 0%;
+}
+
+.tablacita{
+    display: inline-block;
+    width:100%;
+}
+
+
+.ulflexcita{
+    display: flex;
+    justify-content: space-around;
+}
+
+.ulflexcita1{
+    display: flex;
+    justify-content: space-around;
+    font-weight: 600; 
+}
+
+.botoncita{
+    display: inline-block;
+    width: 100px;
+    position: relative;
+    bottom:0px;
+    left:0px;
+}
+
+
+.deberias{
+
+    
+   position: relative;
+   right: 0%;
+   width: 100%;
+   margin-top: 5%;
+}
+
+
+
+.cajasdeberias{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.contenedorpreparate{
+    display: inline-block;
+    
+
+margin-top: 5%;
+}
+
+
+
+.preparateimg{
+   display: block;
+    position: relative;
+    height: 400px;
+    width: 100%;    
+    background-image: url("prepa.jpg");
+    background-size: 100% 100%;
+    
+}
+
+.preparatext{
+  display: block;
+    position: relative;
+    width: 100%;
+    height: 400px; 
+    text-align: center;
+}
+
+
+
+.preparalista{
+display: inline-block;
+flex-direction: column;
+position: relative;
+
+ 
+}
+
+
+.contenedorllama{
+    display: flex;
+    width: 100%;
+margin-top: 5%;
+justify-content: space-between;
+
+}
+
+.llamatext{
+    display: block;
+    position: relative;
+    width: 40%;
+    height: 400px; 
+    text-align: center;
+}
+
+.llamaflex{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 300px;
+    
+    position: relative;
+    top:10%;
+    left:0%;
+}
+
+.llamaimg{
+    display: inline-block;
+    position: relative;
+    height: 400px;
+    width: 40%;    
+    background-image: url("llama.jpg");
+    background-size: 100% 100%;
+    
+}
+
+
+.foo{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.foouno{
+    display: inline-block;
+    
+    text-align: center;
+}
+
+.foodos{
+    display: inline-flex;
+    
+    justify-content: space-around;
+}
+
+
+
+
+
+
+  }
+
